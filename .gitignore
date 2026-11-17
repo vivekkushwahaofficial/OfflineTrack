@@ -1,0 +1,53 @@
+
+# Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+**/build/
+local.properties
+
+# Android generated files
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python tools
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and personal data
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
